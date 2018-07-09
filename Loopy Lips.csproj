@@ -49,7 +49,6 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LoopyLips.cs" />
     <Compile Include="Node2D.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
