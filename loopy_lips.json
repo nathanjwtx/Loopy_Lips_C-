@@ -7,7 +7,7 @@
     "some things"
 ],
 "story": 
-    "Once upon a time a %s0 ate a %s1 and felt very %s2. It was a %s3 day for all good %s4"
+    "Once upon a time a {0} ate a {1} and felt very {2}. It was a {3} day for all good {4}"
 },
 {
 "inputs": [
@@ -18,5 +18,5 @@
     "yet another thing"
 ],
 "story": 
-    "Last week %s0 went to the %s1 for a %s2. Whilst there a %s3 fell out of the %s4!"
+    "Last week {0} went to the {1} for a {2}. Whilst there a {3] fell out of the {4}!"
 }]

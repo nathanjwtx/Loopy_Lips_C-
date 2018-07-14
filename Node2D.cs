@@ -105,11 +105,7 @@ public class Node2D : Godot.Node2D
 
     private void TellStory()
     {
-        for (int i = 0; i < PlayerWords.Count; i++)
-        {
-            _story = _story.Replace("%s" + System.Convert.ToString(i), PlayerWords[i]);
-        }
-        StoryText.BbcodeText = _story;
+        StoryText.BbcodeText = string.Format(_story, PlayerWords.ToArray());
         ButtonLabel.Text = "Doogan!";
         EndGame();
     }
